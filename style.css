@@ -907,7 +907,7 @@ button:hover {
 
   .project {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     gap: 20px;
   }
 
