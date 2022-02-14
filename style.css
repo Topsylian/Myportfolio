@@ -91,13 +91,13 @@ a {
 
 .port9 {
   display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  background-color: white;
+  justify-content: center;
+  width: 80%;
 }
 
 .port9 img {
   height: 80vh;
+	width: 100%;
 }
 
 .head2 {
@@ -675,7 +675,7 @@ button:hover {
 @media screen and (max-width: 1024px) {
   .content-wrapper111 {
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     gap: 20px;
   }
 
@@ -750,63 +750,62 @@ button:hover {
     grid-column: 1 / 4;
     grid-row: 3 / 3;
     width: 100%;
-	}
+  }
 
-	.container4 {
-		display: grid;
-		grid-template-columns: auto auto;
-		padding: 5% 10% 5% 10%;
-	}
-	
-	.headings3 {
-		grid-column: 1 / 4;
-	}
-	
-	.project {
-		display: grid;
-		grid-template-columns: auto auto;
-		gap: 20px;
-	}
+  .container4 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5% 10% 5% 10%;
+  }
 
-	.text {
-		color: rgb(255, 102, 0);
-		font-size: 26px;
-		font-weight: bold;
-		position: absolute;
-		top: 50px;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-	}
-	
-	.text1 {
-		position: absolute;
-		top: 100px;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-	}
+  .headings3 {
+    grid-column: 1 / 4;
+  }
 
-	.txt {
-		color: rgb(255, 102, 0);
-		font-size: 26px;
-		font-weight: bold;
-		position: absolute;
-		top: 50px;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-	}
-	
-	.txt1 {
-		position: absolute;
-		top: 100px;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-	}
+  .project {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+
+  .text {
+    color: rgb(255, 102, 0);
+    font-size: 26px;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .text1 {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .txt {
+    color: rgb(255, 102, 0);
+    font-size: 26px;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .txt1 {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
 }
-
 
 @media screen and (max-width: 640px) {
   .content-wrapper111 {
@@ -843,6 +842,11 @@ button:hover {
     margin-top: 25em;
     display: grid;
     grid-template-columns: auto;
+  }
+
+  .port9 {
+    justify-content: center;
+		width: 90%;
   }
 
   .container2 {
