@@ -717,9 +717,16 @@ button:hover {
     grid-template-columns: auto;
   }
 
-  .port9 {
-    justify-content: center;
-  }
+	.port9 {
+		display: flex;
+		justify-content: center;
+		width: 80%;
+	}
+	
+	.port9 img {
+		height: 80vh;
+		width: 100%;
+	}
 
   .container2 {
     display: grid;
@@ -844,10 +851,16 @@ button:hover {
     grid-template-columns: auto;
   }
 
-  .port9 {
-    justify-content: center;
-		width: 90%;
-  }
+	.port9 {
+		display: flex;
+		justify-content: center;
+		width: 80%;
+	}
+	
+	.port9 img {
+		height: 80vh;
+		width: 100%;
+	}
 
   .container2 {
     display: grid;
