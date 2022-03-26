@@ -680,13 +680,13 @@ button:hover {
   }
 
   .navbar {
-    display: grid;
+    display: none;
     grid-template-columns: auto;
     position: absolute;
   }
 
   .nav-link {
-    display: flex;
+    display: none;
     flex-direction: column;
     width: 100%;
     padding: 0.5em;
